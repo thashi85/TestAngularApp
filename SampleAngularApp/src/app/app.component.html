@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap Table with Add and Delete Row Feature</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<style>
+
+</style>
+
+</head>
+<body> 
+
+  <div class= "row">
+    <div class="col-2 pr-0">
+        <!-- this is your sidebar area -->
+       <!-- Sidebar -->
+        <div id="sidebar-wrapper" >
+          <ul class="sidebar-nav">
+              <li class="sidebar-brand"><a href="#">Sample App</a>
+              </li>
+              <li><a routerLink="/">Users</a>
+              </li>
+              <li><a routerLink="/user-groups">User Groups</a>
+              </li>
+             
+          </ul>
+      </div>
+     </div>
+     <div class= "col-10">
+      <div class= "row">
+        <div class="col-12 pl-0" > 
+          <div id="header-wrapper"></div>
+        </div>
+      </div>
+      <div class= "row">
+        <div class="col-12"> 
+          <div id="content" width="100%" class="pt-4">
+             <router-outlet></router-outlet>
+            </div>
+        </div>
+      </div>
+       
+     
+     </div>
+   </div>
+ 
+</body>
+</html>

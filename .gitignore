@@ -3,3 +3,13 @@
 ################################################################################
 
 /.vs/slnx.sqlite
+/SampleAngularApp/package-lock.json
+/SampleTestApp/.vs/SampleTestApp
+/SampleTestApp/SampleTestApp/bin/Debug/net5.0
+/SampleTestApp/SampleTestApp/obj
+/SampleTestApp/TestApp.Business/bin/Debug/net5.0
+/SampleTestApp/TestApp.Business/obj
+/SampleTestApp/TestApp.DBAccess/bin/Debug/net5.0
+/SampleTestApp/TestApp.DBAccess/obj
+/SampleTestApp/TestApp.Domain/bin/Debug/net5.0
+/SampleTestApp/TestApp.Domain/obj

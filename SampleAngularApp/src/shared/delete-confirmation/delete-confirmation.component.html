@@ -1,0 +1,26 @@
+<div class="model-header mini">
+    <mat-toolbar color="primary">
+        <span class="col-11 fill-remaining-space">  {{data?.title}}</span>
+        <div class="col-1 table-close"><i class="material-icons" (click)="closeDialog()">close</i></div>
+      </mat-toolbar>
+</div>
+
+<div class="model-body">
+    <div class="row m-2">
+      <div class="mmc_flex--container">
+        <div class="mmc_flex__item wm-dlt-msg">
+            {{data?.message}}
+        </div>
+    </div>
+    </div>
+</div>
+
+<div class="model-footer mini-2">
+    <div class="row title-container d-flex m-0">
+        <div class="col-7 footer-left"></div>
+        <div class="col-5 footer-right">
+            <button type="button"  mat-raised-button color="primary" class="mr-2 btn btn-default ib-btn" (click)="onOkClick()">{{data?.yesText}}</button>
+            <button type="button"  mat-raised-button color="warn" class="mr-2 btn btn-default ib-btn" (click)="onCancelClick()" >{{data?.noText}}</button>
+        </div>
+    </div>
+</div>
